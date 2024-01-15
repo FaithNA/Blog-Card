@@ -1,0 +1,63 @@
+.ft p, .ft img{
+    display: inline;
+}
+.mn{
+    max-width: 320px;
+    text-align: center;
+    background: white;
+    border-radius: 20px;
+    padding-bottom: 1px;
+    height: 450px;
+    border: 1.3px solid black;
+    box-shadow: 5px 5px 0 rgba(0, 0, 0, 1);
+}
+button{
+    background: hsl(47, 88%, 63%);
+    border-radius: 5px;
+    border: 0;
+    padding: 5px 10px;
+}
+body{
+    background: hsl(47, 88%, 63%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#im{
+    border-radius: 10px;
+    margin: 10px 0;
+    width: 300px;
+}
+.sub{
+    text-align: left;
+    margin: 10px;
+}
+.ft{
+    text-align: left;
+    margin: 10px 10px;
+    margin-bottom: 30px;
+    position:relative
+}
+#name{
+    position: absolute;
+    top: -4px;
+    left: 50px;
+}
+.sub h1{
+    font-size: 20px;
+}
+.sub p{
+    font-size: 14px;
+    line-height: 20px;
+}
+#icon{
+    width: 40px;
+    height: 40px;
+}
+p, h1, button{
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+}
